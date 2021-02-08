@@ -17,8 +17,8 @@ treeview {
   }
 
   &:selected {
-    background: $accent-7;
-    color: darken($accent-7, 50%);
+    background: $primary-accent;
+    color: darken($primary-accent, 50%);
   }
 
   &.separator {

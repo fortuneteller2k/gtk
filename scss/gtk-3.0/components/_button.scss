@@ -7,9 +7,9 @@ button {
   &:disabled { opacity: 0.3; }
 
   &:checked, &.suggested-action {
-    background: $accent-7;
-    color: lighten($accent-7, 40%);
-    &:hover:not(:active) { background: darken($accent-7, 5%); }
+    background: $primary-accent;
+    color: lighten($primary-accent, 40%);
+    &:hover:not(:active) { background: darken($primary-accent, 5%); }
   }
 
   &.destructive-action {

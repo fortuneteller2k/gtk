@@ -7,6 +7,6 @@ progressbar {
     }
   }
 
-  &.horizontal progress { background-image: linear-gradient(to right, $accent-7, $accent-4); }
-  &.vertical progress { background-image: linear-gradient(to bottom, $accent-7, $accent-4); }
+  &.horizontal progress { background-image: linear-gradient(to right, $primary-accent, $secondary-accent); }
+  &.vertical progress { background-image: linear-gradient(to bottom, $primary-accent, $secondary-accent); }
 }
