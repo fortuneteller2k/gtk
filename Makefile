@@ -3,7 +3,8 @@ DESTDIR ?=
 INSTALL_DIR ?= $(DESTDIR)$(PREFIX)/share/themes/phocus
 
 all:
-	npm install && npm run build
+	mkdir -p gtk-3.0
+	sass scss/gtk-3.0/gtk.scss gtk-3.0/gtk.css
 
 install:
 	@install -v -d "$(INSTALL_DIR)"
