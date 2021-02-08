@@ -1,4 +1,7 @@
 combobox {
+  box entry {
+    border-radius: 0;
+  }
   button {
     &.combo {
       cellview {
